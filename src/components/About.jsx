@@ -1,5 +1,4 @@
-import { motion } from "framer-motion";
-
+import { motion } from 'framer-motion';
 
 const About = () => {
   return (
@@ -12,18 +11,18 @@ const About = () => {
       viewport={{ once: true }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-800 dark:text-white mb-8">About Me</h2>
+        <h2 className="text-12xl sm:text-4xl font-bold text-center text-gray-800 dark:text-white mb-8">About Me</h2>
         <div className="flex flex-col md:flex-row items-center gap-8">
           <motion.div
-            className="w-full md:w-1/2"
+            className="w-full md:w-1/2 flex justify-center"
             initial={{ x: -100 }}
             whileInView={{ x: 0 }}
             transition={{ duration: 0.8 }}
           >
             <img
-              src="https://via.placeholder.com/400"
+              src="ayush2.jpg"
               alt="Ayush Trivedi"
-              className="rounded-lg shadow-lg w-full"
+              className="rounded-full shadow-lg    object-cover aspect-square"
             />
           </motion.div>
           <motion.div
@@ -33,12 +32,7 @@ const About = () => {
             transition={{ duration: 0.8 }}
           >
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">
-              I'm Ayush Trivedi, a final-year BCA student passionate about web development and eSports. I love crafting
-              user-friendly websites and diving into the world of competitive gaming. When I'm not coding, you can find
-              me exploring new places or jamming to music on Spotify Premium.
-            </p>
-            <p className="text-lg text-gray-600 dark:text-gray-300">
-              My goal is to build innovative web solutions that make an impact. Let's create something amazing together!
+              I'm Ayush Trivedi, a 3rd-year BCA student and fresher with a passion for web development and gaming. As a budding React and MERN stack developer, I’m skilled in crafting dynamic, user-friendly websites. I’m also proficient in Python and currently learning Java to expand my expertise. My goal is to build innovative, impactful web solutions that enhance user experiences. Beyond coding, I’m an avid eSports enthusiast and competitive gamer, excelling in Valorant, PUBG, and Call of Duty. These games fuel my strategic thinking and teamwork skills, which I apply to collaborative projects. When I’m not immersed in code or gaming, I enjoy exploring new destinations and unwinding with music on Spotify Premium. As a fresher, I’m eager to contribute fresh perspectives and learn from industry challenges. I thrive on creativity, whether designing sleek interfaces or outsmarting opponents in virtual arenas. Let’s connect to create something extraordinary—be it a cutting-edge web application or a thrilling eSports showdown!
             </p>
           </motion.div>
         </div>

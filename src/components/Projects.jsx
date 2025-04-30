@@ -6,19 +6,19 @@ const Projects = () => {
       title: "Hospital Management System",
       description: "A web app for managing patient registrations and appointments using HTML, CSS, and JavaScript.",
       link: "https://github.com/yourusername/hospital-system",
-      image: "https://via.placeholder.com/600x400",
+      image: "project1.png",
     },
     {
       title: "Death Clock",
       description: "A personalized startup page with a countdown timer and quote API integration.",
       link: "https://github.com/yourusername/death-clock",
-      image: "https://via.placeholder.com/600x400",
+      image: "project2.png",
     },
     {
       title: "Jarvis AI Assistant",
       description: "A voice-activated AI assistant built with Python, handling tasks like web searches and music playback.",
       link: "https://github.com/yourusername/jarvis-ai",
-      image: "https://via.placeholder.com/600x400",
+      image: "project1.png",
     },
   ];
 
