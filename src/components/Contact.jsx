@@ -102,6 +102,25 @@ const Contact = () => {
             Send Message
           </motion.button>
         </form>
+
+        {/* Contact Details Section */}
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-lg mx-auto">
+          <div>
+            <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-4">Contact</h3>
+            <p className="text-gray-600 dark:text-gray-300">Ayush Trivedi</p>
+            <p className="text-gray-600 dark:text-gray-300">Email: trivediayushpwn@gmail.com</p>
+            <p className="text-gray-600 dark:text-gray-300">Phone: +918953158407</p>
+            <p className="text-gray-600 dark:text-gray-300">Location: Powayan (Shahjahanpur), Uttar Pradesh, India</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-4">Quick Links</h3>
+            <a href="/" className="block text-gray-600 dark:text-gray-300 hover:underline">Home</a>
+            <a href="/about" className="block text-gray-600 dark:text-gray-300 hover:underline">About</a>
+            <a href="/projects" className="block text-gray-600 dark:text-gray-300 hover:underline">Projects</a>
+            <a href="/skills" className="block text-gray-600 dark:text-gray-300 hover:underline">Skills</a>
+            <a href="/contact" className="block text-gray-600 dark:text-gray-300 hover:underline">Contact</a>
+          </div>
+        </div>
       </div>
     </motion.section>
   );
