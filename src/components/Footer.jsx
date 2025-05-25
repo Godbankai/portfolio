@@ -21,7 +21,7 @@ const Footer = () => {
     { name: 'GitHub', href: 'https://github.com', icon: 'fab fa-github' },
     { name: 'LinkedIn', href: 'https://linkedin.com', icon: 'fab fa-linkedin' },
     { name: 'Twitter', href: 'https://twitter.com', icon: 'fab fa-twitter' },
-    { name: 'Email', href: 'mailto:example@email.com', icon: 'fas fa-envelope' },
+    { name: 'Email', href: 'mailto:trivediayushpwn@gmail.com', icon: 'fas fa-envelope' },
   ];
 
   return (
@@ -32,9 +32,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-4">Contact</h3>
             <p className="mb-2">Ayush Trivedi</p>
-            <p className="mb-2">Email: <a href="mailto:example@email.com" className="hover:text-blue-500 transition-colors duration-200">example@email.com</a></p>
-            <p className="mb-2">Phone: +123-456-7890</p>
-            <p>Location: Your City, Country</p>
+            <p className="mb-2">Email: <a href="mailto:trivediayushpwn@gmail.com" className="hover:text-blue-500 transition-colors duration-200">trivediayushpwn@gmail.com</a></p>
+            <p className="mb-2">Phone: +918953158407</p>
+            <p>Location: Powayan (Shahjahanpur), Uttar Pradesh, India</p>
           </div>
 
           {/* Quick Links */}
